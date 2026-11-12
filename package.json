@@ -1,0 +1,17 @@
+{
+  "name": "simple-node-app",
+  "version": "1.0.0",
+  "description": "A tiny Express app for practicing Docker + Jenkins",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
